@@ -1,1 +1,1 @@
-web: gunicorn CatProfile.wsgi:application
+web: gunicorn CatProfile.wsgi

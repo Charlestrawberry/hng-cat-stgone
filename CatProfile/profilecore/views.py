@@ -23,4 +23,4 @@ def me(request):
         "fact": cat_fact
     }
 
-    return JsonResponse(data, content_type = "application/json")
+    return JsonResponse(data, content_type="application/json")
