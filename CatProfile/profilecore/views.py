@@ -6,7 +6,7 @@ def me(request):
     try:
         response = requests.get("https://catfact.ninja/fact", timeout=5)
         if response.status_code == 200:
-            cat_fact = response.json().get("facts", "No fact available right now.")
+            cat_fact = response.json().get("fact", "No fact available right now.")
         else:
             cat_fact = "Could not fetch a cat fact at the moment."
     except requests.RequestException:
