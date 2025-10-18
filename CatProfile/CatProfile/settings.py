@@ -138,3 +138,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Allow all origins for testing (restrict later if needed)
 CORS_ALLOW_ALL_ORIGINS = True
+
